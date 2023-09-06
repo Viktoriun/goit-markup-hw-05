@@ -99,7 +99,7 @@ ul, ol {
     color: #404bbf;
 }
 
-.link::after {
+.studio-menu::after {
     content: "";
     display: flex;
     position: absolute;
@@ -108,7 +108,7 @@ ul, ol {
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
-    width: 100%;
+    width: 48px;
 }
 
 .studio-menu {
@@ -116,12 +116,6 @@ ul, ol {
     overflow: hidden;
     color: #404bbf;
 }
-
-/* .link:hover::after,
-.link:focus::after{
-    background-color: #404bbf;
-
-} */
 
 /* --Menu-- */
 /* --Adress-- */
@@ -177,9 +171,7 @@ ul, ol {
     margin-right: auto;
 }
 
-.first-container {
 
-}
 
 /* --Main Title-- */
 
