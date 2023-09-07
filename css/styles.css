@@ -593,16 +593,17 @@ ul, ol {
 }
 
 .footer-button-div {
+    
+    background: #4D5AE5;
+}
+
+.footer-button {
     display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 4px;
-    background: #4D5AE5;
-}
-
-.footer-button {
     border: none;
     color: #FFFFFF;
     text-align: center;
