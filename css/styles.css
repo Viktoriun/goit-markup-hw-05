@@ -634,14 +634,21 @@ ul, ol {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     padding: 24px;
     border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     background: var(--DAIRY, #FCFCFC);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -649,15 +656,25 @@ ul, ol {
     padding: 0;
     line-height: 0;
     border-radius: 50%;
-    /* fill: var(--CORNFLOWER, #E7E9FC); */
     stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.10);
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    stroke: rgba(0, 0, 0, 0.10);    
+}
+
+.close-button:hover,
+.close-button:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
 }
 
 
 .svg-modal-button {
-    width: 8px;
-    height: 8px;
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-modal-button:hover,
+.svg-modal-button:focus {
+    fill: #ffffff
 }
