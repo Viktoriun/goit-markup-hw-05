@@ -769,11 +769,17 @@ ul, ol {
     margin-bottom: 24px;
 }
 
-.input-privacy {
+.label-privacy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+}
+
+.input-privacy {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .span-privacy {
@@ -786,4 +792,8 @@ ul, ol {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.link-privacy {
+    color: #4d5ae5;
 }
