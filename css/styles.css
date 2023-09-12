@@ -600,14 +600,13 @@ ul, ol {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     gap: 16px;
     margin-left: 16px;
     border-radius: 4px;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
