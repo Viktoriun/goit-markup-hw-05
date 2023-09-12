@@ -601,8 +601,6 @@ ul, ol {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    gap: 16px;
-    margin-left: 16px;
     border-radius: 4px;
     border: none;
     color: #FFFFFF;
@@ -612,6 +610,10 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+}
+
+.svg-footer {
+    margin-left: 16px;
 }
 
 
